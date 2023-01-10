@@ -1,0 +1,36 @@
+.search{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-size: 2rem;
+}
+
+#srch-bar{
+    height: 2.5rem;
+}
+.films{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: .3rem;
+    margin-top: 1rem; 
+}
+.film-card{
+    border: 1px solid black;
+    background-color: wheat;
+    padding: .3rem;
+}
+.film-card > .h1{
+    margin-bottom: .3rem;
+
+}
+.film-card > .body {
+    font-size: .8 rem;
+}
+.hide {
+    display: none;
+}
+img{
+    max-width: 400px;
+    align-self: center;
+}

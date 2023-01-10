@@ -7,20 +7,29 @@
     <title>Document</title>
     <title>Movie Booking</title>
     <script src="./Java/index.js" defer></script>
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-    <form id="Search-For-Film">
-        <input type="text" id="text-input" placeholder="Description" > 
-        <input type="submit" >
-    </form>
-    
-    <div id = "FirstFilm">
-        <title>Main Selection</title>
-        <div id="filmInfo">
-        </div>
+    <div class="search">
+        <h1>Movies On Offer</h1>
+        <!-- <input type="search" placeholder="Movie" id="srch-bar">  -->
     </div>
-    <ul id="Films">
 
-    </ul>
+    <div class="films">
+        <template>
+            <div class="film-card">
+                <h1>film name</h1>
+                <img src="" alt="Film Poster">\
+                <p>*Description*</p>
+                <h2>Runtime:</h2>
+                <h3>Showtime:</h3>
+                <p>Capacity:</p>
+                <p>tickets sold:</p>
+                <p>available tickets:</p>
+                <button>Book ticket</button>
+            </div>
+        </template>   
+
+    </div>
 </body>
 </html>
